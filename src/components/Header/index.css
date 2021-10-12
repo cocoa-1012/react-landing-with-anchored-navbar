@@ -1,0 +1,93 @@
+.HeaderBar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding-right: 20px;
+    z-index: 9;
+}
+.logo img {
+    width: 280px;
+    height: auto;
+    margin-top: -15px;
+    margin-left: -20px;
+}
+.navbar {
+    display: flex;
+    margin-top: 25px;
+    margin-right: 10px;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.navbar > a {
+    text-decoration: none;
+}
+.navbar > a > p {
+    color: black;
+    font-weight: 700;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-right: solid 1px gray;
+}
+.navbar > a > p:hover {
+    color: blue;
+}
+.navbar > a > img {
+    width: 50px;
+    height: auto;
+    margin-top: 13px;
+    margin-right: -15px;
+}
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        margin-right: 40px;
+    }
+    .logo img {
+        width: 220px;
+        margin-left: -40px;
+    }
+    .logo {
+        margin-right: -25px;
+    }
+    .navbar > a > p {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .HeaderBar {
+        display: block;
+        padding-left: 2%;
+        z-index: 9;
+    }
+
+    .logo {
+        margin-bottom: -40px;
+    }
+    .logo img {
+        width: 30%;
+        margin-left: -5%;
+    }
+    .navbar {
+        margin-top: 0px;
+    }
+    .navbar > a > p {
+        font-size: 14px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    .navbar > a > img {
+        width: 40px;
+    }
+}

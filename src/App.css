@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.page-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

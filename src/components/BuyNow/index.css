@@ -1,0 +1,142 @@
+.p-1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: -15px !important;
+    margin-bottom: -15px !important;
+}
+.p-2 {
+    font-size: 32px;
+    font-weight: 500;
+    word-spacing: 0.2px;
+    letter-spacing: -1px;
+}
+.p-3 {
+    line-height: 90%;
+}
+.p-4 {
+    font-size: 32px;
+    font-weight: 500;
+    word-spacing: 0.2px;
+    letter-spacing: 2px;
+}
+
+.p-1,
+.p-2,
+.p-3,
+.p-4 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.buynow {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+    max-width: 1000px;
+}
+.buynowcomponent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 450px;
+    background-color: #34425b;
+    width: 100%;
+}
+.description {
+    margin-top: 70px;
+}
+.description > a > img {
+    margin-top: 0px;
+    width: 260px;
+}
+.imgshow {
+    position: absolute;
+    right: 60px;
+    top: -20px;
+}
+.imgshow > img {
+    width: 340px;
+}
+@media only screen and (max-width: 1024px) {
+    .imgshow {
+        right: 50px;
+    }
+    .description {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .p-1 {
+        font-size: 40px;
+        margin-top: -5px !important;
+        margin-bottom: -5px !important;
+    }
+    .p-2 {
+        font-size: 26px;
+        letter-spacing: 0px;
+    }
+    .p-3 {
+        line-height: 150%;
+    }
+    .p-4 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .imgshow {
+        right: 30px;
+        top: 60px;
+    }
+    .imgshow > img {
+        width: 250px;
+    }
+    .description {
+        margin-left: 20px;
+        margin-right: -120px;
+    }
+    .buynowcomponent {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .p-1 {
+        font-size: 25px;
+        margin-top: -5px !important;
+        margin-bottom: -5px !important;
+    }
+    .p-2 {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    .p-3 {
+        line-height: 150%;
+    }
+    .p-4 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .buynow {
+        padding-right: 0px;
+    }
+    .description {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 90px;
+    }
+    .imgshow {
+        right: 0px;
+    }
+    .imgshow > img {
+        width: 100px;
+    }
+    .buynowcomponent {
+        height: 310px;
+    }
+    .description > a > img {
+        margin-top: -20px;
+        width: 200px;
+    }
+}

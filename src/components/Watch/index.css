@@ -1,0 +1,240 @@
+.watch {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.diagram {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 660px;
+}
+.watchscreen {
+    display: flex;
+    position: relative;
+}
+.watchscreen > img {
+    margin-top: -50px;
+    width: 600px;
+    height: 400px;
+    z-index: -100;
+}
+.videodiv {
+    position: absolute;
+    top: -21px;
+    left: 60px;
+    width: 480px;
+    height: 337px;
+}
+.watchtitle {
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.watchtitle > p {
+    font-weight: 800;
+    word-spacing: 0.2px;
+    letter-spacing: -1px;
+    line-height: 90%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.firsttitle {
+    font-size: 40px;
+}
+.secondtitle {
+    font-size: 45px;
+}
+.watchtitle > img {
+    margin-top: -10px;
+    width: 250px;
+}
+.titlescreen {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: -80px;
+}
+.winabean {
+    margin-left: -80px;
+}
+.winabean > img {
+    width: 480px;
+}
+.watchman {
+    position: absolute;
+    right: calc(50vw + 100px);
+    margin-top: -150px;
+}
+.watchman img {
+    width: 280px;
+}
+.enternow {
+    display: flex;
+    justify-content: center;
+}
+.enternow img {
+    margin-top: -10px;
+    width: 200px;
+}
+.active {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #34425b;
+}
+.activecontents {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.activedescription {
+    margin-top: 10px;
+}
+.activedescription > p {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 1024px) {
+    .winabean {
+        margin-left: -30px;
+    }
+    .winabean > img {
+        margin-top: 120px;
+        margin-left: -50px;
+        width: 400px;
+    }
+    .watchtitle {
+        margin-right: 20px;
+    }
+    .firsttitle {
+        font-size: 35px;
+    }
+    .secondtitle {
+        font-size: 40px;
+    }
+    .watchscreen {
+        margin-right: -60px;
+    }
+    .watchscreen > img {
+        width: 450px;
+        height: 300px;
+        margin-top: -80px;
+        margin-top: -80px;
+    }
+    .titlescreen {
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+
+    .watchtitle > img {
+        /* margin-top: -10px; */
+        width: 200px;
+    }
+    .videodiv {
+        top: -60px;
+        left: 45px;
+        width: 360px;
+        height: 255px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .winabean > img {
+        margin-left: -100px;
+        margin-top: 80px;
+        width: 350px;
+    }
+    .titlescreen {
+        margin-left: -20px;
+    }
+    .watchman > img {
+        width: 200px;
+    }
+    .watchtitle img {
+        width: 200px;
+        margin-left: -20px;
+    }
+    .watchscreen {
+        margin-right: 0px;
+    }
+    .watchscreen img {
+        width: 400px;
+        height: 300px;
+    }
+    .videodiv {
+        top: -58px;
+        left: 40px;
+        width: 320px;
+        height: 253px;
+    }
+    .react-player video {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+    .active {
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .firsttitle {
+        font-size: 25px;
+    }
+    .secondtitle {
+        font-size: 30px;
+    }
+    .watchtitle > img {
+        display: none;
+    }
+    .titlescreen {
+        margin-left: 0px;
+    }
+    .watchscreen {
+        position: absolute;
+        bottom: 100px;
+    }
+    .watchscreen img {
+        width: 400px;
+        height: 250px;
+    }
+    .winabean {
+        margin-left: 0px;
+    }
+    .winabean > img {
+        width: 200px;
+        margin-left: 20px;
+    }
+    .watchman img {
+        width: 120px;
+    }
+    .enternow img {
+        width: 150px;
+    }
+    .titlescreen {
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .diagram {
+        height: 450px;
+    }
+    .videodiv {
+        top: -62px;
+        left: 40px;
+        width: 320px;
+        height: 211px;
+    }
+    .active {
+        height: 180px;
+    }
+}

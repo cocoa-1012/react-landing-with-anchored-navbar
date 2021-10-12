@@ -1,0 +1,103 @@
+.aboutusdiv {
+    background-color: #34425b;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.aboutusman {
+    position: absolute;
+    margin-top: 70px;
+    left: calc(50vw - 500px);
+}
+.aboutusman img {
+    width: 250px;
+}
+.aboutdescription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #34425b;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.aboutdescription p {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+.abouttitle {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+.aboutdetail {
+    margin-bottom: 0;
+    font-size: 18px;
+    max-width: 1200px;
+}
+.members {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.members p {
+    font-size: 20px;
+}
+.links {
+    display: flex;
+    margin-left: 30px;
+}
+.links img {
+    margin-top: 8px;
+    margin-left: 5px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 1224px) {
+    .aboutusman {
+        left: 30px;
+    }
+    .aboutdescription {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .aboutusman {
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .aboutusman img {
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .aboutusman {
+        left: 0px;
+        top: 70px;
+    }
+    .aboutusman img {
+        width: 180px;
+    }
+    .links {
+        display: flex;
+        margin-left: 5px;
+    }
+    .members {
+        margin-left: 130px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .abouttitle {
+        font-size: 35px;
+    }
+    .aboutdetail {
+        margin-bottom: 0;
+        font-size: 14px;
+        max-width: 350px;
+    }
+}
